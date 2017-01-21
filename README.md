@@ -24,3 +24,17 @@ CommandError: already exists, overlaying a project or app into an existing direc
 (dj110) $ python manage.py startapp newapp apps/newapp
 CommandError: Destination directory does not exist, please create it first.
 ```
+此外，您會需要一個.env檔，但由於安全性的關係，我將其置於下方
+
+`.env`
+
+```
+DEBUG=true
+SECRET_KEY="你自己的key, Change to your SECRET_KEY。"
+DB_NAME=my_db
+DB_USER=postgres
+DB_PASS=postgres
+DB_SERVICE=172.17.0.1
+DB_PORT=5432
+```
+set_env.sh 會啟動一個postgres sql資料庫的docker container，你得把它改成你的，如果是資料庫是新的，你還得進到docker container去建一個叫'my_db'的資料庫。
