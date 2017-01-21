@@ -38,3 +38,6 @@ DB_SERVICE=172.17.0.1
 DB_PORT=5432
 ```
 set_env.sh 會啟動一個postgres sql資料庫的docker container，你得把它改成你的，如果是資料庫是新的，你還得進到docker container去建一個叫'my_db'的資料庫。
+
+$ docker pull postgres:latest #取得postgresql的最新版的docker images
+$ docker run -it postgres:latest bash #開啟並進入一個postgresql的container
