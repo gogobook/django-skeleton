@@ -2,6 +2,10 @@
 ## 要增加log資料夾在project 資料夾，及apps資料夾下。
 ### 注意：由於目的是將app集中於apps資料夾下，所以在apps資料夾下用`python ..manage.py startapp newapp`。(使用預設python manage.py startapp 如加上資料夾的位置，而且該資料夾要先建，而且名字不能一樣。)
 
+## 啟用方法如下；這將會建立一django的skeleton，名稱為project。
+## django-admin startproject project --template=https://github.com/gogobook/django-skeleton/archive/master.zip
+
+
 ## djgunicorn是給本機開發時使用的，並未放入base.py。 
 
 說明如下：
