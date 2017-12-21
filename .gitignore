@@ -8,3 +8,8 @@ __pycache__
 node_modules
 .log
 .vscode/
+
+# SQLite3 database files:
+*.db
+*.sqlite3
+*.sqlite

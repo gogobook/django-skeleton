@@ -1,4 +1,4 @@
-docker start 0a9c40308df4
+#docker start 0a9c40308df4
 
 export $(cat .env)
 

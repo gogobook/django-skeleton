@@ -1,10 +1,16 @@
 Django>=1.11
 djangorestframework>=3.6
 gunicorn>=19.7
-psycopg2>=2.7
+psycopg2>=2.7.3
 redis>=2.10
 djgunicorn
 markdown
 django-filter
 django-guardian
 django-cors-headers
+django-environ
+django-braces
+django-crispy-forms
+django-admin-bootstrapped
+django-authtools
+easy-thumbnails>=2.4.1
